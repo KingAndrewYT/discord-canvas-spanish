@@ -1,25 +1,25 @@
-# discord-canvas
+# discord-canvas-spanish
 
-[![downloadsBadge](https://img.shields.io/npm/dt/discord-canvas?style=for-the-badge)](https://npmjs.com/discord-canvas)
-[![versionBadge](https://img.shields.io/npm/v/discord-canvas?style=for-the-badge)](https://npmjs.com/discord-canvas)
-[![doc](https://img.shields.io/badge/Documentation-Click%20here-blue?style=for-the-badge)](https://www.discord-canvas.net)
+[![downloadsBadge](https://img.shields.io/npm/dt/discord-canvas-spanish?style=for-the-badge)](https://npmjs.com/discord-canvas-spanish)
+[![versionBadge](https://img.shields.io/npm/v/discord-canvas-spanish?style=for-the-badge)](https://npmjs.com/discord-canvas-spanish)
+[![doc](https://img.shields.io/badge/Documentation-Click%20here-blue?style=for-the-badge)](https://www.discord-canvas-spanish.net)
 
 ## Easy to use !!
 
-You want to develop a discord bot using the Discord.js library and you want to integrate nice images in Canvas? discord-canvas is made for you! You can create great welcome images, goodbye images and other fun images fully customizable using the many easy-to-use features!
+You want to develop a discord bot using the Discord.js library and you want to integrate nice images in Canvas? discord-canvas-spanish is made for you! You can create great welcome images, goodbye images and other fun images fully customizable using the many easy-to-use features!
 
 ## Installation
 
 ```bash
-$ npm install --save discord-canvas
+$ npm install --save discord-canvas-spanish
 ```
 
-## [Click here to see the documentation!](https://www.discord-canvas.net)
+## [Click here to see the documentation!](https://www.discord-canvas-spanish.net)
 
 ## Example GoodBye
 
 ```js
-const Canvas = require("discord-canvas"),
+const Canvas = require("discord-canvas-spanish"),
   Discord = require("discord.js");
 
 const image = await new Canvas.Goodbye()
@@ -47,7 +47,7 @@ message.channel.send(attachment);
 ## Example RankCard
 
 ```js
-const Canvas = require("discord-canvas"),
+const Canvas = require("discord-canvas-spanish"),
   Discord = require("discord.js");
 
 const image = await new Canvas.RankCard()
@@ -76,7 +76,7 @@ message.channel.send(attachment);
 ## Example Fortnite Shop
 
 ```js
-const Canvas = require("discord-canvas"),
+const Canvas = require("discord-canvas-spanish"),
   Discord = require("discord.js");
 
 const image = await shop
@@ -93,7 +93,7 @@ message.channel.send(attachment);
 ## Example Fortnite Stats
 
 ```js
-const canvas = require("discord-canvas"),
+const canvas = require("discord-canvas-spanish"),
   stats = new canvas.FortniteStats();
   
 const user = "CBRG xixi52 YT",

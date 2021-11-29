@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xixi52/discord-canvas.git"
+    "url": "git+https://github.com/KingAndrewYT/discord-canvas-spanish.git"
   },
   "keywords": [
     "Discord.js",
@@ -16,9 +16,9 @@
   "author": "KingAndrewYT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xixi52/discord-canvas/issues"
+    "url": "https://github.com/KingAndrewYT/discord-canvas-spanish/issues"
   },
-  "homepage": "https://github.com/xixi52/discord-canvas#readme",
+  "homepage": "https://github.com/KingAndrewYT/discord-canvas-spanish#readme",
   "dependencies": {
     "canvas": "^2.6.1",
     "fortnite-9812": "^1.0.4",
