@@ -1,6 +1,6 @@
 {
   "name": "discord-canvas-spanish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Un paquete para simplificar el uso de Canvas para Discord !",
   "main": "index.js",
   "repository": {
