@@ -4,37 +4,37 @@
 [![versionBadge](https://img.shields.io/npm/v/discord-canvas-spanish?style=for-the-badge)](https://npmjs.com/discord-canvas-spanish)
 [![doc](https://img.shields.io/badge/Documentation-Click%20here-blue?style=for-the-badge)](https://www.discord-canvas-spanish.net)
 
-## Easy to use !!
+## Facil de usar !!
 
-You want to develop a discord bot using the Discord.js library and you want to integrate nice images in Canvas? discord-canvas-spanish is made for you! You can create great welcome images, goodbye images and other fun images fully customizable using the many easy-to-use features!
+¿Quieres desarrollar un bot de Discord utilizando la biblioteca Discord.js y quieres integrar buenas imágenes en Canvas? discord-canvas-spanish está hecho para ti! ¡Puede crear excelentes imágenes de bienvenida, imágenes de despedida y otras imágenes divertidas totalmente personalizables utilizando las muchas funciones fáciles de usar!
 
-## Installation
+## Instalacion
 
 ```bash
-$ npm install --save discord-canvas-spanish
+$ npm i discord-canvas-spanish@latest
 ```
 
-## [Click here to see the documentation!](https://www.discord-canvas-spanish.net)
+## [Suscribete a mi canal de YouTube!](https://www.youtube.com/c/AndrewTutoriales)
 
-## Example GoodBye
+## Ejemplo de Despedida
 
 ```js
 const Canvas = require("discord-canvas-spanish"),
   Discord = require("discord.js");
 
 const image = await new Canvas.Goodbye()
-  .setUsername("xixi52")
+  .setUsername("KingAndrewYT")
   .setDiscriminator("0001")
   .setMemberCount("140")
   .setGuildName("Server DEV")
-  .setAvatar("https://www.site.com/avatar.jpg")
+  .setAvatar("https://i.ibb.co/j4rsNvy/nopp.png")
   .setColor("border", "#8015EA")
   .setColor("username-box", "#8015EA")
   .setColor("discriminator-box", "#8015EA")
   .setColor("message-box", "#8015EA")
   .setColor("title", "#8015EA")
   .setColor("avatar", "#8015EA")
-  .setBackground("https://site.com/background.jpg")
+  .setBackground("https://i.ibb.co/JF8CTJJ/kaytbotperfil.jpg")
   .toAttachment();
 
 const attachment = new Discord.MessageAttachment(image.toBuffer(), "goodbye-image.png");
@@ -51,19 +51,19 @@ const Canvas = require("discord-canvas-spanish"),
   Discord = require("discord.js");
 
 const image = await new Canvas.RankCard()
-    .setAvatar("xixi52")
+    .setAvatar(avatarimg)
     .setXP("current", 500)
     .setXP("needed", 1000)
     .setLevel(7)
     .setRank(2)
     .setReputation(450)
     .setRankName("professional")
-    .setUsername("xixi52")
+    .setUsername("KingAndrewYT")
     .setBadge(1, "gold")
     .setBadge(3, "diamond")
     .setBadge(5, "silver")
     .setBadge(6, "bronze")
-    .setBackground("https://www.site.com/background.jpg")
+    .setBackground("https://i.ibb.co/JF8CTJJ/kaytbotperfil.jpg")
     .toAttachment();
 
 const attachment = new Discord.MessageAttachment(image.toBuffer(), "rank-card.png");
@@ -73,7 +73,7 @@ message.channel.send(attachment);
 
 <img src="https://i.imgur.com/5L7qCkW.png" height="250"></img>
 
-## Example Fortnite Shop
+## Ejemplo de tienda de Fortnite
 
 ```js
 const Canvas = require("discord-canvas-spanish"),
@@ -90,13 +90,13 @@ message.channel.send(attachment);
 
 <img src="https://i.imgur.com/3qO81V8.jpg" height="600"></img>
 
-## Example Fortnite Stats
+## Ejemplo de estatus de Fortnite
 
 ```js
 const canvas = require("discord-canvas-spanish"),
   stats = new canvas.FortniteStats();
   
-const user = "CBRG xixi52 YT",
+const user = "KingAndrewYT",
   platform = "pc";
   
 let image = await stats
@@ -115,11 +115,12 @@ message.channel.send(attachment);
 
 <img src="https://i.imgur.com/xqnabX5.png" height="450"></img>
 
-## Contributing
+## Contribucion
 
-If you have a request for a new feature you can open an issue on Github. Pull requests are appreciated!
+Si tiene una solicitud para una nueva función, puede abrir un problema en Github. ¡Se agradecen las solicitudes de extracción!
 
-## Credits
+## Creditos
 
 Made by [xixi52](https://github.com/xixi52) with ❤️  
 Thanks to [Androz2091](https://github.com/Androz2091) for his help !
+Agradecimientos a [KingAndrewYT](https://github.com/KingAndrewYT) por su ayuda!
